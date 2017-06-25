@@ -1,0 +1,20 @@
+--- /usr/src/linux/include/uapi/linux/input-event-codes.h.orig	2016-01-11 08:01:32.000000000 +0900
++++ /usr/src/linux/include/uapi/linux/input-event-codes.h	2016-07-03 18:19:38.370012319 +0900
+@@ -289,7 +289,7 @@
+ #define KEY_SOUND		213
+ #define KEY_QUESTION		214
+ #define KEY_EMAIL		215
+-#define KEY_CHAT		216
++#define KEY_VENDOR		216
+ #define KEY_SEARCH		217
+ #define KEY_CONNECT		218
+ #define KEY_FINANCE		219	/* AL Checkbook/Finance */
+@@ -425,7 +425,7 @@
+ #define KEY_OPTION		0x165
+ #define KEY_INFO		0x166	/* AL OEM Features/Tips/Tutorial */
+ #define KEY_TIME		0x167
+-#define KEY_VENDOR		0x168
++#define KEY_CHAT		0x168
+ #define KEY_ARCHIVE		0x169
+ #define KEY_PROGRAM		0x16a	/* Media Select Program Guide */
+ #define KEY_CHANNEL		0x16b
